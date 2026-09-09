@@ -1,0 +1,501 @@
+<!doctype html> 
+<html lang="pt-BR" data-tema="escuro"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>rootpage | Criação de sites para empresas</title>         
+        <meta name="description" content="A rootpage cria, publica e mantém o site da sua empresa. Estrutura sólida, carregamento rápido e um visual que gera contato."> 
+        <meta name="theme-color" content="#070A09"> 
+        <!-- TROQUE pelo seu domínio quando publicar -->         
+        <link rel="canonical" href="https://www.rootpage.com.br/"> 
+        <meta property="og:type" content="website"> 
+        <meta property="og:locale" content="pt_BR"> 
+        <meta property="og:title" content="rootpage | Criação de sites para empresas"> 
+        <meta property="og:description" content="A rootpage cria, publica e mantém o site da sua empresa, da raiz ao topo."> 
+        <meta property="og:url" content="https://www.rootpage.com.br/"> 
+        <!-- Para compartilhar no WhatsApp e redes, exporte assets/img/og.svg como PNG 1200x630 e aponte aqui -->         
+        <meta property="og:image" content="https://www.rootpage.com.br/assets/img/og.png"> 
+        <meta name="twitter:card" content="summary_large_image"> 
+        <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml"> 
+        <link rel="apple-touch-icon" href="assets/img/logo.svg"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"> 
+        <link rel="stylesheet" href="assets/css/estilo.css"> 
+        <script>
+  /* aplica o tema salvo antes de pintar a tela, evitando piscada */
+  (function () {
+    try {
+      var t = localStorage.getItem("rootpage-tema");
+      if (t) document.documentElement.setAttribute("data-tema", t);
+    } catch (e) {}
+  })();
+</script>         
+    </head>     
+    <body> 
+        <a class="pular" href="#conteudo">Pular para o conteúdo</a> 
+        <div id="sentinela-topo" aria-hidden="true"></div>         
+        <header class="cabecalho" id="cabecalho"> 
+            <div class="shell cabecalho__linha"> 
+                <a class="marca" href="#inicio" aria-label="rootpage, página inicial">  <img src="assets/img/logo.svg" alt="" width="30" height="30">  <span class="marca__nome">rootpage</span>  </a> 
+                <nav class="menu" id="menu" aria-label="Navegação principal"> 
+                    <a href="#servicos">Serviços</a> 
+                    <a href="#processo">Processo</a> 
+                    <a href="#projetos">Projetos</a> 
+                    <a href="#planos">Planos</a> 
+                    <a href="#duvidas">Dúvidas</a> 
+                </nav>                 
+                <div class="cabecalho__acoes"> 
+                    <button class="icone-botao" id="botao-tema" type="button" aria-label="Alternar tema claro e escuro"> 
+                        <i class="ph ph-sun tema-sol" aria-hidden="true"></i> 
+                        <i class="ph ph-moon tema-lua" aria-hidden="true"></i> 
+                    </button>                     
+                    <a class="botao botao--primario botao--pequeno" href="#contato">Pedir orçamento</a> 
+                    <button class="icone-botao hamburguer" id="botao-menu" type="button" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false"> 
+                        <i class="ph ph-list" aria-hidden="true"></i> 
+                    </button>                     
+                </div>                 
+            </div>             
+        </header>         
+        <main id="conteudo"> 
+            <!-- ================= HERO ================= -->             
+            <section class="hero" id="inicio"> 
+                <div class="shell hero__grade"> 
+                    <div> 
+                        <h1 class="hero__titulo entra">Sites feitos <em>da raiz ao topo</em>.</h1> 
+                        <p class="hero__texto entra" style="--atraso: 90ms"> 
+          Criamos, publicamos e cuidamos do site da sua empresa. Estrutura sólida,
+          carregamento rápido e visual que vende. </p> 
+                        <div class="hero__acoes entra" style="--atraso: 180ms"> 
+                            <a class="botao botao--primario" href="#contato">Pedir orçamento</a> 
+                            <a class="botao botao--secundario" href="#planos">Ver planos</a> 
+                        </div>                         
+                    </div>                     
+                    <div class="hero__visual entra" style="--atraso: 260ms"> 
+                        <!-- TODO: troque por uma foto sua. A imagem e decorativa, por isso alt="" -->                         
+                        <figure class="moldura">                              
+</figure>                         
+                    </div>                     
+                </div>                 
+            </section>             
+            <!-- ================= SERVIÇOS ================= -->             
+            <section class="secao secao--alt" id="servicos"> 
+                <div class="shell"> 
+                    <div class="secao__topo revela"> 
+                        <h2 class="secao__titulo">O que a rootpage entrega</h2> 
+                        <p class="secao__texto"> 
+          Do endereço na internet até a página que fecha a venda, tudo sai pronto e no seu nome. </p> 
+                    </div>                     
+                    <div class="bento"> 
+                        <article class="bento__item bento__item--marca revela"> 
+                            <span class="bento__icone"><i class="ph ph-browsers" aria-hidden="true"></i></span> 
+                            <h3 class="bento__titulo">Site institucional</h3> 
+                            <p class="bento__texto"> 
+            Páginas que apresentam sua empresa, mostram o que você faz e conduzem o visitante
+            até o contato. Textos, fotos e estrutura pensados para quem nunca ouviu falar de você. </p> 
+                        </article>                         
+                        <article class="bento__item revela" style="--atraso: 70ms"> 
+                            <span class="bento__icone"><i class="ph ph-target" aria-hidden="true"></i></span> 
+                            <h3 class="bento__titulo">Página de campanha</h3> 
+                            <p class="bento__texto"> 
+            Uma página única, focada em converter quem chega pelo anúncio ou pelo perfil. </p> 
+                        </article>                         
+                        <article class="bento__item revela" style="--atraso: 140ms"> 
+                            <span class="bento__icone"><i class="ph ph-storefront" aria-hidden="true"></i></span> 
+                            <h3 class="bento__titulo">Catálogo e loja</h3> 
+                            <p class="bento__texto"> 
+            Produtos organizados, com pedido pelo WhatsApp ou checkout completo com pagamento online. </p> 
+                        </article>                         
+                        <article class="bento__item bento__item--foto revela" style="--atraso: 210ms"> 
+                            <!-- TODO: troque por uma imagem sua. A imagem e decorativa, por isso alt="" -->                             
+                            <figure class="moldura"> 
+                                <img src="https://picsum.photos/seed/rootpage-infra/900/700?grayscale" alt="" width="900" height="700" loading="lazy" decoding="async"> 
+                            </figure>                             
+                            <div class="bento__conteudo--sobreposto"> 
+                                <span class="bento__icone"><i class="ph ph-globe-hemisphere-west" aria-hidden="true"></i></span> 
+                                <h3 class="bento__titulo">Domínio, e-mail e hospedagem</h3> 
+                                <p class="bento__texto"> 
+              Registramos o endereço, configuramos o e-mail profissional e deixamos o site no ar.
+              Tudo fica no nome da sua empresa, com os acessos na sua mão. </p> 
+                            </div>                             
+                        </article>                         
+                        <article class="bento__item bento__item--larga revela" style="--atraso: 280ms"> 
+                            <div class="bento__grupo"> 
+                                <span class="bento__icone"><i class="ph ph-wrench" aria-hidden="true"></i></span> 
+                                <h3 class="bento__titulo">Manutenção mensal</h3> 
+                                <p class="bento__texto"> 
+              Backup, atualização de segurança, monitoramento e troca de conteúdo quando você precisar.
+              O site continua rápido e no ar depois da entrega. </p> 
+                            </div>                             
+                            <a class="botao botao--secundario" href="#planos">Ver planos</a> 
+                        </article>                         
+                    </div>                     
+                </div>                 
+            </section>             
+            <!-- ================= PROCESSO ================= -->             
+            <section class="secao" id="processo"> 
+                <div class="shell processo"> 
+                    <div class="secao__topo revela" style="margin-bottom: 0"> 
+                        <h2 class="secao__titulo">Como um site sai do papel</h2> 
+                        <p class="secao__texto"> 
+          Quatro etapas, prazo combinado antes de começar e você aprovando cada uma delas. </p> 
+                    </div>                     
+                    <ol class="trilho" style="list-style: none; padding-left: 2.75rem; margin: 0"> 
+                        <li class="passo"> 
+                            <h3 class="passo__titulo">Conversa</h3> 
+                            <p class="passo__texto"> 
+            Entendemos o que sua empresa vende, para quem vende e o que o site precisa resolver.
+            Sai daqui o escopo e o orçamento fechado. </p> 
+                        </li>                         
+                        <li class="passo"> 
+                            <h3 class="passo__titulo">Estrutura</h3> 
+                            <p class="passo__texto"> 
+            Definimos as páginas, os textos e a ordem das informações antes de desenhar qualquer tela. </p> 
+                        </li>                         
+                        <li class="passo"> 
+                            <h3 class="passo__titulo">Desenho e código</h3> 
+                            <p class="passo__texto"> 
+            Você aprova o layout e ele vira código feito para carregar rápido no celular e no computador. </p> 
+                        </li>                         
+                        <li class="passo"> 
+                            <h3 class="passo__titulo">Publicação</h3> 
+                            <p class="passo__texto"> 
+            Domínio apontado, site no ar, Google Analytics medindo. Você recebe os acessos e um guia
+            de como editar o conteúdo. </p> 
+                        </li>                         
+                    </ol>                     
+                </div>                 
+            </section>             
+            <!-- ================= PROJETOS (vem de assets/js/dados.js) ================= -->             
+            <section class="secao secao--alt" id="projetos"> 
+                <div class="shell"> 
+                    <div class="secao__topo revela"> 
+                        <h2 class="secao__titulo">Projetos publicados</h2> 
+                        <p class="secao__texto"> 
+          Cada site entregue entra nesta lista, com o nome do cliente e o link para visitar. </p> 
+                    </div>                     
+                    <div id="lista-projetos" class="revela"></div>                     
+                </div>                 
+            </section>             
+            <!-- ================= PLANOS ================= -->             
+            <section class="secao" id="planos"> 
+                <div class="shell"> 
+                    <div class="secao__topo revela"> 
+                        <h2 class="secao__titulo">Planos</h2> 
+                        <p class="secao__texto"> 
+          Valor fechado antes de começar. Sem cobrança por hora e sem surpresa na entrega. </p> 
+                    </div>                     
+                    <div class="planos"> 
+                        <!-- TROQUE os valores abaixo pelos seus preços -->                         
+                        <article class="plano revela"> 
+                            <h3 class="plano__nome">Essencial</h3> 
+                            <p class="plano__preco">R$897,00&nbsp;<small>uma vez</small></p> 
+                            <p class="plano__resumo"> 
+            Uma página completa para a empresa que precisa existir no Google e receber contato. </p> 
+                            <ul class="plano__lista"> 
+                                <li>
+                                    <i class="ph ph-check" aria-hidden="true"></i> Página única com todas as seções
+                                </li>                                 
+                                <li>
+                                    <i class="ph ph-check" aria-hidden="true"></i> Botão de WhatsApp e formulário
+                                </li>                                 
+                                <li>
+                                    <i class="ph ph-check" aria-hidden="true"></i> Domínio e hospedagem configurados
+                                </li>                                 
+                                <li>
+                                    <i class="ph ph-check" aria-hidden="true"></i> Cadastro no Google Meu Negócio
+                                </li>                                 
+                            </ul>                             
+                            <a class="botao botao--secundario botao--largo" href="#contato">Pedir orçamento</a> 
+                        </article>                         
+                        <article class="plano plano--destaque revela" style="--atraso: 80ms"> 
+                            <h3 class="plano__nome">Completo</h3> 
+                            <p class="plano__preco">R$ 1297,00<small>uma vez</small></p> 
+                            <p class="plano__resumo"> 
+            Site de várias páginas para quem tem serviços, portfólio ou catálogo para mostrar. </p> 
+                            <ul class="plano__lista"> 
+                                <li>
+                                    <i class="ph ph-check" aria-hidden="true"></i> Até seis páginas internas
+                                </li>                                 
+                                <li>
+                                    <i class="ph ph-check" aria-hidden="true"></i> Catálogo ou galeria de trabalhos
+                                </li>                                 
+                                <li>
+                                    <i class="ph ph-check" aria-hidden="true"></i> SEO configurado página por página
+                                </li>                                 
+                                <li>
+                                    <i class="ph ph-check" aria-hidden="true"></i> Painel para você editar o conteúdo
+                                </li>                                 
+                                <li>
+                                    <i class="ph ph-check" aria-hidden="true"></i> E-mail profissional no seu domínio
+                                </li>                                 
+                            </ul>                             
+                            <a class="botao botao--primario botao--largo" href="#contato">Pedir orçamento</a> 
+                        </article>                         
+                        <article class="plano plano--largo revela" style="--atraso: 160ms"> 
+                            <div> 
+                                <h3 class="plano__nome">Sob medida</h3> 
+                                <p class="plano__resumo" style="margin-top: 0.5rem"> 
+              Loja com pagamento online, área de cliente, integração com sistema interno
+              ou tudo isso junto. Orçamento montado depois da conversa. </p> 
+                            </div>                             
+                            <a class="botao botao--secundario" href="#contato">Pedir orçamento</a> 
+                        </article>                         
+                    </div>                     
+                </div>                 
+            </section>             
+            <!-- ================= DÚVIDAS ================= -->             
+            <section class="secao secao--alt" id="duvidas"> 
+                <div class="shell"> 
+                    <div class="secao__topo revela"> 
+                        <h2 class="secao__titulo">Dúvidas frequentes</h2> 
+                    </div>                     
+                    <div class="faq" id="faq"> 
+                        <div class="faq__item"> 
+                            <h3>  <button class="faq__gatilho" type="button" aria-expanded="false" aria-controls="r1"> 
+                                    <span>Quanto tempo leva para o site ficar pronto?</span> 
+                                    <i class="ph ph-plus" aria-hidden="true"></i> 
+                                </button>  </h3> 
+                            <div class="faq__resposta" id="r1" role="region"> 
+                                <div>
+                                    <p> 
+              Uma página única fica pronta em cerca de sete dias úteis. Sites de várias páginas levam
+              de duas a quatro semanas. O prazo é combinado por escrito antes de começar e depende
+              principalmente da velocidade com que você envia textos e fotos. </p>
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="faq__item"> 
+                            <h3>  <button class="faq__gatilho" type="button" aria-expanded="false" aria-controls="r2"> 
+                                    <span>O que eu preciso enviar para começar?</span> 
+                                    <i class="ph ph-plus" aria-hidden="true"></i> 
+                                </button>  </h3> 
+                            <div class="faq__resposta" id="r2" role="region"> 
+                                <div>
+                                    <p> 
+              Logotipo, fotos que você já tenha e uma explicação do que a empresa faz. Se não houver
+              textos prontos, escrevemos com base na conversa inicial e você aprova antes de publicar. </p>
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="faq__item"> 
+                            <h3>  <button class="faq__gatilho" type="button" aria-expanded="false" aria-controls="r3"> 
+                                    <span>O site fica em nome de quem?</span> 
+                                    <i class="ph ph-plus" aria-hidden="true"></i> 
+                                </button>  </h3> 
+                            <div class="faq__resposta" id="r3" role="region"> 
+                                <div>
+                                    <p> 
+              Seu. Domínio, hospedagem e contas ficam registrados no CNPJ da sua empresa e você recebe
+              todos os acessos na entrega. Se um dia quiser trocar de fornecedor, leva o site junto. </p>
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="faq__item"> 
+                            <h3>  <button class="faq__gatilho" type="button" aria-expanded="false" aria-controls="r4"> 
+                                    <span>Consigo editar o conteúdo depois?</span> 
+                                    <i class="ph ph-plus" aria-hidden="true"></i> 
+                                </button>  </h3> 
+                            <div class="faq__resposta" id="r4" role="region"> 
+                                <div>
+                                    <p> 
+              Sim. Nos planos com painel você troca textos, fotos e preços sozinho. Em qualquer plano,
+              alterações também podem ser feitas por nós dentro da manutenção mensal. </p>
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="faq__item"> 
+                            <h3>  <button class="faq__gatilho" type="button" aria-expanded="false" aria-controls="r5"> 
+                                    <span>O site funciona bem no celular?</span> 
+                                    <i class="ph ph-plus" aria-hidden="true"></i> 
+                                </button>  </h3> 
+                            <div class="faq__resposta" id="r5" role="region"> 
+                                <div>
+                                    <p> 
+              É onde a maior parte das visitas acontece, então o layout é desenhado primeiro para a tela
+              pequena. Testamos em Android e iPhone antes de publicar e medimos a velocidade de carregamento. </p>
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="faq__item"> 
+                            <h3>  <button class="faq__gatilho" type="button" aria-expanded="false" aria-controls="r6"> 
+                                    <span>Como funciona o pagamento?</span> 
+                                    <i class="ph ph-plus" aria-hidden="true"></i> 
+                                </button>  </h3> 
+                            <div class="faq__resposta" id="r6" role="region"> 
+                                <div>
+                                    <p> 
+              Metade na aprovação do orçamento e metade na entrega, por Pix, boleto ou cartão.
+              A manutenção mensal, quando contratada, é cobrada à parte todo mês. </p>
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>             
+            <!-- ================= CONTATO ================= -->             
+            <section class="secao" id="contato"> 
+                <div class="shell contato__grade"> 
+                    <div class="revela"> 
+                        <h2 class="secao__titulo">Vamos falar do seu site</h2> 
+                        <p class="secao__texto"> 
+          Conte o que sua empresa faz e o que você precisa. Respondemos com prazo e valor. </p> 
+                        <div class="contato__canais"> 
+                            <a class="contato__canal" data-canal="whatsapp" href="#">  <i class="ph ph-whatsapp-logo" aria-hidden="true"></i>  <span data-canal-texto="whatsapp">WhatsApp</span>  </a> 
+                            <a class="contato__canal" data-canal="email" href="#">  <i class="ph ph-envelope-simple" aria-hidden="true"></i>  <span data-canal-texto="email">E-mail</span>  </a> 
+                            <a class="contato__canal" data-canal="instagram" href="#" target="_blank" rel="noopener">  <i class="ph ph-instagram-logo" aria-hidden="true"></i>  <span data-canal-texto="instagram">@rootpagewebsitesoficial</span>  </a> 
+                        </div>                         
+                    </div>                     
+                    <form class="formulario revela" id="form-contato" novalidate style="--atraso: 80ms"> 
+                        <div class="campo--duplo"> 
+                            <div class="campo"> 
+                                <label for="nome">Nome</label>                                 
+                                <input id="nome" name="nome" type="text" autocomplete="name" placeholder="Como podemos te chamar"> 
+                                <span class="campo__erro" data-erro="nome"></span> 
+                            </div>                             
+                            <div class="campo"> 
+                                <label for="telefone">WhatsApp</label>                                 
+                                <input id="telefone" name="telefone" type="tel" inputmode="tel" autocomplete="tel" placeholder="(00) 00000-0000"> 
+                                <span class="campo__erro" data-erro="telefone"></span> 
+                            </div>                             
+                        </div>                         
+                        <div class="campo"> 
+                            <label for="tipo">Tipo de projeto</label>                             
+                            <select id="tipo" name="tipo"> 
+                                <option value="Site institucional">Site institucional</option>                                 
+                                <option value="Página de campanha">Página de campanha</option>                                 
+                                <option value="Catálogo ou loja">Catálogo ou loja</option>                                 
+                                <option value="Manutenção de site existente">Manutenção de site existente</option>                                 
+                                <option value="Ainda não sei">Ainda não sei</option>                                 
+                            </select>                             
+                            <span class="campo__ajuda">Se estiver em dúvida, escolha a última opção.</span> 
+                        </div>                         
+                        <div class="campo"> 
+                            <label for="mensagem">O que sua empresa faz</label>                             
+                            <textarea id="mensagem" name="mensagem" placeholder="Ex: oficina mecânica em Campinas, quero receber orçamentos pelo site"></textarea> 
+                            <span class="campo__erro" data-erro="mensagem"></span> 
+                        </div>                         
+                        <div class="formulario__aviso" id="aviso-form" role="status"> 
+                            <i class="ph ph-check-circle" aria-hidden="true"></i> 
+                            <span id="aviso-texto"></span> 
+                        </div>                         
+                        <button class="botao botao--primario botao--largo" type="submit" id="enviar"> 
+                            <span class="botao__rotulo">Pedir orçamento</span> 
+                        </button>                         
+                        <p class="campo__ajuda" style="text-align: center"> 
+          O botão abre uma conversa no WhatsApp com a mensagem já escrita. </p> 
+                    </form>                     
+                </div>                 
+            </section>             
+        </main>         
+        <footer class="rodape"> 
+            <div class="shell"> 
+                <div class="rodape__grade"> 
+                    <div class="rodape__sobre"> 
+                        <a class="marca" href="#inicio" aria-label="rootpage, página inicial">  <img src="assets/img/logo.svg" alt="" width="30" height="30">  <span class="marca__nome">rootpage</span>  </a> 
+                        <p class="rodape__lema"> 
+          da raiz ao topo. Criação, publicação e manutenção de sites para empresas que precisam
+          ser encontradas. </p> 
+                    </div>                     
+                    <div class="rodape__colunas"> 
+                        <div> 
+                            <p class="rodape__titulo">Navegar</p> 
+                            <ul class="rodape__lista"> 
+                                <li>
+                                    <a href="#servicos">Serviços</a>
+                                </li>                                 
+                                <li>
+                                    <a href="#processo">Processo</a>
+                                </li>                                 
+                                <li>
+                                    <a href="#projetos">Projetos</a>
+                                </li>                                 
+                                <li>
+                                    <a href="#planos">Planos</a>
+                                </li>                                 
+                                <li>
+                                    <a href="#duvidas">Dúvidas</a>
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                        <div> 
+                            <p class="rodape__titulo">Contato</p> 
+                            <ul class="rodape__lista"> 
+                                <li>
+                                    <a data-canal="whatsapp" href="#"><span data-canal-texto="whatsapp">WhatsApp</span></a>
+                                </li>                                 
+                                <li>
+                                    <a data-canal="email" href="#"><span data-canal-texto="email">E-mail</span></a>
+                                </li>                                 
+                                <li>
+                                    <a data-canal="instagram" href="#" target="_blank" rel="noopener"><span data-canal-texto="instagram">@rootpagewebsitesoficial</span></a>
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+                <div class="rodape__base"> 
+                    <span>&copy; <span id="ano">2026</span> rootpage. Todos os direitos reservados.</span> 
+                    <span data-canal-texto="cnpj">CNPJ 00.000.000/0001-00</span> 
+                    <span><a href="privacidade.html">Política de privacidade</a></span> 
+                </div>                 
+            </div>             
+        </footer>         
+        <script src="assets/js/dados.js"></script>         
+        <script src="assets/js/site.js"></script>         
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "rootpage",
+  "slogan": "da raiz ao topo",
+  "description": "Criação, publicação e manutenção de sites para empresas.",
+  "url": "https://www.rootpage.com.br/",
+  "logo": "https://www.rootpage.com.br/assets/img/logo.svg",
+  "areaServed": "BR",
+  "serviceType": ["Criação de sites", "Página de campanha", "Manutenção de sites"]
+}
+</script>         
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quanto tempo leva para o site ficar pronto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Uma página única fica pronta em cerca de sete dias úteis. Sites de várias páginas levam de duas a quatro semanas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O site fica em nome de quem?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Domínio, hospedagem e contas ficam registrados no CNPJ da sua empresa e você recebe todos os acessos na entrega."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Consigo editar o conteúdo depois?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Nos planos com painel você edita textos, fotos e preços. Também é possível pedir as alterações dentro da manutenção mensal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como funciona o pagamento?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Metade na aprovação do orçamento e metade na entrega, por Pix, boleto ou cartão."
+      }
+    }
+  ]
+}
+</script>         
+    </body>     
+</html>

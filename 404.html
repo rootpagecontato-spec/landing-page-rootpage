@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR" data-tema="escuro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Página não encontrada | rootpage</title>
+<meta name="description" content="O endereço que você abriu não existe no site da rootpage.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#070A09">
+
+<link rel="icon" href="/assets/img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Outfit:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<link rel="stylesheet" href="/assets/css/estilo.css">
+
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem("rootpage-tema");
+      if (t) document.documentElement.setAttribute("data-tema", t);
+    } catch (e) {}
+  })();
+</script>
+</head>
+
+<body>
+<main class="erro">
+  <div class="shell erro__caixa">
+    <img class="erro__marca entra" src="/assets/img/logo.svg" alt="rootpage" width="76" height="76">
+
+    <p class="erro__codigo entra" style="--atraso: 60ms">404</p>
+
+    <h1 class="erro__titulo entra" style="--atraso: 120ms">Esta página não existe</h1>
+
+    <p class="erro__texto entra" style="--atraso: 180ms">
+      O endereço mudou, o link veio incompleto ou a página saiu do ar.
+      Nada de grave: siga por um dos caminhos abaixo.
+    </p>
+
+    <div class="erro__acoes entra" style="--atraso: 240ms">
+      <a class="botao botao--primario" href="/">Voltar para o início</a>
+      <a class="botao botao--secundario" href="/#contato">Pedir orçamento</a>
+    </div>
+
+    <nav class="erro__atalhos entra" style="--atraso: 300ms" aria-label="Atalhos do site">
+      <a href="/#servicos">Serviços</a>
+      <a href="/#processo">Processo</a>
+      <a href="/#projetos">Projetos</a>
+      <a href="/#planos">Planos</a>
+      <a href="/#duvidas">Dúvidas</a>
+    </nav>
+  </div>
+</main>
+</body>
+</html>
